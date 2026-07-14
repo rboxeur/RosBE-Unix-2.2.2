@@ -29,7 +29,7 @@ curl https://github.com/rboxeur/RosBE-Unix-2.2.2/releases/download/RosBE-Unix-2.
 sudo tar xf RosBE-Unix-2.2.2-linux.tar.x -C /
 ```
 
-RosBE should be located into /opt/RosBE
+RosBE should be located into /opt/RosBE. Now you can download ReactOS source and enter the RosBE environment.
 
 ```
 git clone --recursive https://github.com/reactos/reactos.git
@@ -43,7 +43,7 @@ ninja bootcd
 # To quit the RosBE environment just run exit
 ```
 
-Once done then you have a hybrid boot iso to fill either on a USB key using dd command or a CD
+Once done then you have a hybrid boot iso to fill either on a USB key using dd command or a CD to burn.
 
 ## For those curious: details for patched Gcc are provided here
 
