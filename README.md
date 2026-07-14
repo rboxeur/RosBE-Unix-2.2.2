@@ -18,6 +18,33 @@ This repository is an attempt to upgrade this environment by offering
 
 Refer to `README_ReactOS` file for more instructions
 
+## Instructions
+
+This has been built inside a Ubuntu 18.04.060 chroot so it should be fine regarding your glibc version
+
+Download and decompress
+
+```
+curl https://github.com/rboxeur/RosBE-Unix-2.2.2/releases/download/RosBE-Unix-2.2.2-linux/RosBE-Unix-2.2.2-linux.tar.xz --output RosBE-Unix-2.2.2-linux.tar.xz
+sudo tar xf RosBE-Unix-2.2.2-linux.tar.x -C /
+```
+
+RosBE should be located into /opt/RosBE
+
+```
+git clone --recursive https://github.com/reactos/reactos.git
+cd reactos
+# Enter the RosBE environment
+/opt/RosBE/RosBE.sh
+# You can now perform your own commands
+./configure.sh -DCMAKE_BUILD_TYPE=Release 
+cd output-MinGW-i386
+ninja bootcd
+# To quit the RosBE environment just run exit
+```
+
+Once done then you have a hybrid boot iso to fill either on a USB key using dd command or a CD
+
 ## For those curious: details for patched Gcc are provided here
 
 Gcc was patched refering to 
