@@ -3,7 +3,7 @@ RosBE for ReactOS upgraded to 2.2.2
 
 ## About
 
-[RosBE](https://reactos.org/wiki/Build_Environment) aka ReactOS Build Environment aims at offer a build environment for [ReactOS](https://reactos.org/).
+[RosBE](https://reactos.org/wiki/Build_Environment) aka ReactOS Build Environment aims at offering a build environment for [ReactOS](https://reactos.org/).
 That way you could customize your own build livecd/boot iso.
 
 This repository 
@@ -29,7 +29,9 @@ curl https://github.com/rboxeur/RosBE-Unix-2.2.2/releases/download/RosBE-Unix-2.
 sudo tar xf RosBE-Unix-2.2.2-linux.tar.x -C /
 ```
 
-RosBE should be located into /opt/RosBE. Now you can download ReactOS source and enter the RosBE environment.
+RosBE should be located into /opt/RosBE. 
+
+Now you can download ReactOS sources and enter the RosBE environment.
 
 ```
 git clone --recursive https://github.com/reactos/reactos.git
