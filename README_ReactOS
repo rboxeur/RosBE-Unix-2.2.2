@@ -1,5 +1,5 @@
                            ReactOS Build Environment
-                 Version 2.2.1 for Unix-based operating systems
+                 Version 2.2.2 for Unix-based operating systems
                       Base package and i386 build tools
 
 Introduction
@@ -89,9 +89,9 @@ components:
   * GNU Binutils v2.34
     compiled for i686-w64-mingw32
 
-  * GCC, The GNU Compiler Collection v8.4.0
+  * GCC, The GNU Compiler Collection v8.5.0
     compiled for i686-w64-mingw32
-    NOTE: This GCC version only supports C and C++
+    NOTE: This GCC version only supports C and C++ and was patched -- refer to README.md for more details
 
   * Bison 3.5.4
     patched with:
@@ -106,7 +106,7 @@ components:
     patched with:
       - https://raw.githubusercontent.com/reactos/RosBE/e87b00c8f8732ed3fa393b9b05a12093ae5942e8/Patches/GMP-6.2.0-C89-fixes.patch
 
-  * Mingw-w64 6.0.0
+  * Mingw-w64 6.0.1
   * MPC 1.1.0
   * MPFR 4.0.2
   * Ninja 1.10.0

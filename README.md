@@ -16,16 +16,19 @@ This repository is an attempt to upgrade this environment by offering
 - MinGW-W64 upgraded fron 6.0.0 to 6.0.1
 - Gcc upgraded fron 8.4.0 to 8.5.0 with minor patches
 
-Refer to README file for more instructions
+Refer to `README_ReactOS` file for more instructions
 
-## For those curious
+## For those curious: details for patched Gcc are provided here
 
-Gcc was patched refering to
+Gcc was patched refering to 
+
+- URL https://github.com/gentoo/gcc-patches
+- commit = 814ca13216462c81498ecbefb2a25fe54b27c1bc
 
 - URL = https://github.com/Alexpux/MINGW-packages/tree/master/mingw-w64-gcc 
 - commit = d20ad9115e4e5707ff7fc6ab8c4d9bedce26903a
 
-You can clone this mingw-w64 repository using following instructions
+You can clone this mingw-w64-gcc patched repository using following instructions
 
 ```
 mkdir -pv MINGW-packages
