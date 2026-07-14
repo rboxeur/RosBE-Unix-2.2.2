@@ -27,7 +27,7 @@ Gcc was patched refering to
 
 You can clone this mingw-w64 repository using following instructions
 
-``
+```
 mkdir -pv MINGW-packages
 cd MINGW-packages
 git init
@@ -36,7 +36,7 @@ git config core.sparseCheckout true
 echo "mingw-w64-gcc/*" >> .git/info/sparse-checkout
 git pull origin master
 git checkout d20ad9115e4e5707ff7fc6ab8c4d9bedce26903a
-``
+```
 
 Since I am not on Arch then commands were applied manually refering to PKGBUILD = https://github.com/Alexpux/MINGW-packages/blob/master/mingw-w64-gcc/PKGBUILD
 Only patches listed below were applied.
